@@ -1,0 +1,7 @@
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\bin\Debug\TaskNine.exe.config
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\bin\Debug\TaskNine.exe
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\bin\Debug\TaskNine.pdb
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\obj\Debug\TaskNine.csprojResolveAssemblyReference.cache
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\obj\Debug\TaskNine.csproj.CoreCompileInputs.cache
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\obj\Debug\TaskNine.exe
+C:\Users\Daria\Documents\C#\Practice\TaskNine\TaskNine\obj\Debug\TaskNine.pdb
