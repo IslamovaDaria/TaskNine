@@ -22,7 +22,7 @@ namespace ConsoleApplication2
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Ошибка ввода. Ожидалось целое число.");
+                    Console.WriteLine("Ошибка ввода. Ожидалось натуральное число.");
                     OK = false;
                 }
             } while (!OK);
@@ -31,10 +31,19 @@ namespace ConsoleApplication2
 
         static void Main(string[] args)
         {
+            bool OK = true;
+            int size;
             int counted_size = 0;
             int counted_size_rec = 0;
             Console.WriteLine("Введите размер списка:");
-            int size = ReadInt();
+            {
+                size = ReadInt();
+                if (size <= 0)
+                {
+                    Console.WriteLine("Ошибка ввода. Ожидалось натуральное число.");
+                    OK = false;
+                }
+            } while (!OK) ;
             List a = List.MakeListToEnd(size);
             List.ShowList(a);
             counted_size = List.SizeOfList(a);
